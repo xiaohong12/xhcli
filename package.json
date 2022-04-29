@@ -1,0 +1,19 @@
+{
+  "name": "clidemo",
+  "version": "1.0.0",
+  "description": "脚手架Demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "xhcli": "bin/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.2.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^8.2.3"
+  }
+}
