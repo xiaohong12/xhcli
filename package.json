@@ -1,10 +1,14 @@
 {
-  "name": "clidemo",
-  "version": "1.0.0",
+  "name": "cli-xh",
+  "version": "1.0.1",
   "description": "脚手架Demo",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiaohong12/xhcli"
   },
   "bin": {
     "xhcli": "bin/index.js"

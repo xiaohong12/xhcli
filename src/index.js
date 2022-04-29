@@ -28,6 +28,7 @@ const questions = [
         name: "answer2",//存储用户回答的答案字段
     },
 ];
+
 inquirer.prompt(questions).then((answers) => {
     download('xiaohong12/raect-mobine', USER_HOME + "/" + answers.answer2, function (err) {
         if (!err) {
